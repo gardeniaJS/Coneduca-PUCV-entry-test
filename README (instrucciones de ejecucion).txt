@@ -22,10 +22,16 @@
 
 -En el campo con placeholder "Nombre de la base de datos" ingresar "a1b2c3" y presionar el boton "Crear"
 
--En la terminar ejecutar el comando php artisan make:model Modelo -m
+-En la terminal ejecutar el comando "composer require laravel/breeze --dev"
 
 -Luego ejecutar el comando php artisan migrate
 
--En el navegador click en el boton "GENERATE APP KEY" 
+-Posteriormente ejecutar los siguientes comandos en el mismo orden 
+"php artisan breeze:install
+
+php artisan migrate
+npm install
+npm run dev"
+-En caso de solicitarlo el navegador click en el boton "GENERATE APP KEY" 
 
 Con eso el proyecto queda listo para usarse.
